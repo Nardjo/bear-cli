@@ -1,0 +1,36 @@
+{
+  "name": "bear-cli",
+  "version": "0.1.0",
+  "description": "api2cli-compatible wrapper for Bear's official BearCLI",
+  "type": "module",
+  "bin": {
+    "bear-cli": "./dist/bear-cli.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "bun build src/index.ts --outfile dist/bear-cli.js --target bun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nardjo/bear-cli.git"
+  },
+  "homepage": "https://github.com/Nardjo/bear-cli#readme",
+  "keywords": [
+    "bear",
+    "bearcli",
+    "bear-cli",
+    "notes",
+    "api2cli",
+    "cli",
+    "mcp"
+  ],
+  "license": "MIT",
+  "engines": {
+    "bun": ">=1.0"
+  }
+}
